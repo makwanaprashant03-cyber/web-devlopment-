@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <form action="form2succes.html" method="post">
+        Name: <input type="text" name="username" required><br><br>
+        Email: <input type="email" name="useremail" required><br><br>
+        Password: <input type="password" name="password" required><br><br>
+        Mobile No: <input type="tel" name="mobile" pattern="[0-9]{10}" placeholder="10 Digits" required><br><br>
+        Age: <input type="number" name="age" min="1" max="120" required><br><br>
+        DOB: <input type="date" name="dob" required><br><br>
+        
+        Gender:
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
